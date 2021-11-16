@@ -54,7 +54,7 @@ mysql:latest
 >- Used latest docker image of wordpress from docker hub.
 >- name of container is **wordpress**
 >- Container belongs to the network of custom bridge **wpntwrk**
->- provided ***wordpress db host, db user, db password *** and ***db name*** through envronment variables.
+>- provided ***wordpress db host, db user, db password*** and ***db name*** through envronment variables.
 >- published port 80 of container and mapped to port 80 of host server.
 >- Started container in detatch mode
 
