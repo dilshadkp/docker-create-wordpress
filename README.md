@@ -19,7 +19,7 @@ Then, we need to create a custom Bridge in the docker. [Bridge](https://docs.doc
 
 Custom Bridge in docker supports communication between containers through container names. So, I am going to create a custom Bidge here.
 
-#### Creating custom Bridge
+### Creating custom Bridge
 
 >I am creating a custom Bridge named **wpntwrk**.
 
@@ -28,7 +28,7 @@ Custom Bridge in docker supports communication between containers through contai
 ```
 Then, I am going to create 2 containers under this Bridge, one for databaase and one for website.
 
-#### Creating Database container
+### Creating Database container
 
 >- Used latest docker image of MySQL from docker hub.
 >- name of container is **database**
@@ -49,7 +49,7 @@ Then, I am going to create 2 containers under this Bridge, one for databaase and
 mysql:latest
 ```
 
-#### Creating Website container
+### Creating Website container
 
 >- Used latest docker image of wordpress from docker hub.
 >- name of container is **wordpress**
